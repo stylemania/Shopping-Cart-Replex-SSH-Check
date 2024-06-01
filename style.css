@@ -1,0 +1,128 @@
+body {margin: 0;}
+/* -------header section start-------*/
+header{
+  width: 100%;
+  height: 120px;
+  background: rgba(14, 150, 206, 1);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+/* left head start */
+  header .left-head{
+    width: 50%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+  }
+ .left-head .head-image{
+   width: 30%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .left-head .head-image img{
+   width: 80%;
+   height: 80%;
+   border-radius: 50%;
+ }
+ .left-head .head-logo h1{
+   font-size: 30px;
+   font-weight: bold;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+/* left head end */
+
+
+/* right head start*/
+header .right-head{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+/* right head end*/
+
+/* --------header section end--------*/
+
+/* --------home section start--------*/
+.home-section{
+  width: 100%;
+  height: 800px;
+}
+.home-section .search-input{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-input input{
+  width: 75%;
+  height: 70px;
+  margin-left: 50px;
+  border-radius: 5px;
+  border: 1px solid orange;
+}
+.search-input button{
+  height: 70px;
+  width: 15%;
+  margin-right: 30px;
+  font-size: 20px;
+  color: white;
+  background: orange;
+}
+.home-section .container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-section .container .left-home{
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.home-section .container .left-home h1{
+  font-size: 40px;
+  font-weight: bold;
+  
+}
+.home-section .container .right-home{
+  color: black;
+  margin-left: 20px;
+  max-width: 500px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* --------home section end--------*/
+
+/* --------footer section start--------*/
+footer{
+  width: 100%;
+  height: 100px;
+  background: rgba(249, 249, 255, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer h1{
+  font-size: 25px;
+  font-weight: bold;
+}
+footer h1 span{
+  color: rgba(14, 150, 206, 1);
+}
+/* --------footer section end--------*/
